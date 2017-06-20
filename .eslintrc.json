@@ -1,0 +1,31 @@
+{
+    "extends": "eslint-config-airbnb",
+    "env" : {
+      "browser" : true,
+      "commonjs" : true,
+      "node" : true,
+      "es6" : true
+      },
+    "parser" : "babel-eslint",
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import"
+    ],
+    "rules" : {
+      "semi" : [ 0, "never"],
+      "react/jsx-curly-spacing": [2, "always"],
+      "no-underscore-dangle": ["error", { "allowAfterThis": true }],
+      "no-empty": ["error", { "allowEmptyCatch": true }],
+      "jsx-a11y/no-static-element-interactions": ["warn",
+                                                    {
+                                                      "handlers": [
+                                                        "onClick",
+                                                        "onMouseDown",
+                                                        "onMouseUp",
+                                                        "onKeyPress",
+                                                        "onKeyDown",
+                                                        "onKeyUp"
+                                                     ]}]
+    }
+}

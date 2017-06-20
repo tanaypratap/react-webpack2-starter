@@ -1,0 +1,22 @@
+body {
+  background-color: #b5b5d2;
+}
+
+
+.bg {
+  color: white;
+  text-align: center;
+  padding-left: 20px;
+}
+
+/* Responsive classes just to give an idea of how to go with CSS */
+@media (max-width: 768px) {
+  body {
+    background-color: white;
+  }
+  .bg {
+    color: black;
+    padding-left: 20px;
+    text-align: right;
+  }
+}
