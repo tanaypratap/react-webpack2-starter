@@ -29,7 +29,7 @@ this will create the build files which needs to be deployed.
 serve the files using express server run server.js in production mode with something like `pm2` to manage process
 `NODE_ENV=production node server.js`
 if pm2 then
-`NODE_ENV=production pm2 start server.js --name app.artifacia.com`
+`NODE_ENV=production pm2 start server.js --name yourappname.com`
 
 #### Note
 #### Babel
