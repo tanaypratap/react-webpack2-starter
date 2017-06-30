@@ -9,7 +9,7 @@ node v6.9.5
 
 ## To Run
 do git clone of the repository
-`https://gitlab.com/platform_team/app.artifacia.com.git`
+`https://github.com/tanaypratap/react-webpack2-starter.git`
 
 run
 `npm install`
