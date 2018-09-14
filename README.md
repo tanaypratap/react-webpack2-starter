@@ -4,6 +4,9 @@ REACT STARTER PACK
 A simple starter pack for React Redux with chunking and versioning in Webpack 2 to optimize speed.
 There's also an express server for the same. It serves both production and development builds.
 
+### Disclaimer
+This project was started to understand the entire ecosystem. This was before Create-React-App. If you're starting a new project then use CRA from facebook.
+
 ## Dependencies
 node v6.9.5
 
